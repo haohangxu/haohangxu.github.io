@@ -88,6 +88,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/words/page:num/"
 
 kramdown:
   input: GFM
