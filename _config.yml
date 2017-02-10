@@ -1,7 +1,4 @@
-# --- General options --- #
-
-# url is the full website URL
-# baseurl is the website's URL without the hostname
+# --- Serving Options --- #
 
 url: "http://haohangxu.github.io"
 baseurl: ""
@@ -16,14 +13,16 @@ description: Meow!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "about"
+  Projects: "projects"
+  Words: "words"
+  Home: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.jpg"
 
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
+# Image logo in top left corner
 # title-img: /path/to/image
 
 # --- Footer options --- #
@@ -43,27 +42,21 @@ footer-links-active:
   facebook: true
   email: true
   twitter: false
-  google-plus: false
   github: true
   reddit: false
   linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
   instagram: false
   youtube: false
-  spotify: false
   telephone: false
 
 # Select which share links to show in posts
 share-links-active:
   twitter: false
-  facebook: true
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
+# Footer link
 url-pretty: "haohangxu.github.io"
 
 # --- Misc --- #
@@ -90,7 +83,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -182,6 +175,3 @@ prose:
 
 gems:
   - jekyll-paginate
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
