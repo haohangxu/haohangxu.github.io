@@ -7,7 +7,7 @@ baseurl: ""
 title: Haohang Xu
 
 # Short description of your site
-description: Meow!
+# description: Meow!
 
 # --- Navigation bar options --- #
 
@@ -15,7 +15,8 @@ description: Meow!
 navbar-links:
   Home: ""
   About Me: "about"
-  Projects: "projects"
+  #Resume: "resume"
+  #Projects: "projects"
   Words: "words"
 
 
