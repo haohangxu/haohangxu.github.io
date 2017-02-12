@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Haohang Xu
-subtitle: Derping Through Life
+subtitle: Derpin' Through Life
 meta-title: "Haohang Xu"
-meta-description: "a derp"
-bigimg: 
+bigimg: home-background
 ---
