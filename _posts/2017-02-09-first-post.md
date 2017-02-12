@@ -4,4 +4,4 @@ title: Hello World!
 tags: [random, exciting-stuff]
 ---
 
-This is my first post, how exciting!
+This is my first post. Yay!

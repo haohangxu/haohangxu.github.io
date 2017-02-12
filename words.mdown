@@ -1,0 +1,6 @@
+---
+layout: blog
+title: Words, etc.
+use-site-title: true
+---
+
