@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-Hi! My name is Haohang. I'm a senior at Yale University majoring in Computer Science and Mathematics. 
+Hiya! My name is Haohang. I'm currently a senior at Yale University majoring in Computer Science and Mathematics.
 
 Things I like:
 
@@ -28,4 +28,4 @@ Things that currently occupy my time:
 - sleep
 - trying to understand the world
 
-Further enumeration of these sets can potentially be found over in [Words]({{ site.baseurl }}/words), where I intend to collect contemplations of life.
+Further enumeration of these sets can potentially be found over in [Words]({{ site.baseurl }}/words), where I intend to collect contemplations of derping and life. 
