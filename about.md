@@ -25,4 +25,4 @@ Things that currently occupy my time:
 - sleep
 - trying to understand the world
 
-Further enumeration of these sets can potentially be found over in [Words]({{ site.baseurl }}/words), where I intend to contemplate life.
+Further enumeration of these sets can potentially be found over in [Words]({{ site.baseurl }}/words), where I intend to collect contemplations of life.
