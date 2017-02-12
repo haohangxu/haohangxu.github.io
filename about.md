@@ -6,6 +6,7 @@ title: About Me
 Hi! My name is Haohang. I'm a senior at Yale University majoring in Computer Science and Mathematics. 
 
 Things I like:
+
 - derping
 - board games
 - puns
@@ -14,6 +15,7 @@ Things I like:
 - enumerable sets 
 
 Things I don't like:
+
 - scary movies
 - heights
 - C++
@@ -21,6 +23,7 @@ Things I don't like:
 - socks
 
 Things that currently occupy my time:
+
 - homework
 - sleep
 - trying to understand the world
