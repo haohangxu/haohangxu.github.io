@@ -22,31 +22,14 @@
             <ul class="navigation">
               <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="contemplations of life" class="blog-button">Words</a></li>
               <li class="navigation__item"><a href="{{ site.baseurl }}/#about" title="about me!" class="about-button">About</a></li>
+              {% if site.author.resume %}
+                <li class="navigation__item"><a href="{{ site.baseurl }}/{{ site.author.resume }}" title="Resume">Resume</a></li>
+              {% endif %}
             </ul>
           </nav>
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
-
-            {% if site.author.twitter_username %}
-              <!-- Twitter -->
-              <li class="navigation__item">
-                <a href="http://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.twitter_username }} on Twitter" target="_blank">
-                  <i class="icon icon-social-twitter"></i>
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.author.facebook_username %}
-              <!-- Facebook -->
-              <li class="navigation__item">
-                <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-            {% endif %}
 
             {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
