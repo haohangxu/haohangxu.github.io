@@ -17,14 +17,11 @@
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
-
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="contemplations of life" class="blog-button">Words</a></li>
               <li class="navigation__item"><a href="{{ site.baseurl }}/#about" title="about me!" class="about-button">About</a></li>
-              {% if site.author.resume %}
-                <li class="navigation__item"><a href="{{ site.baseurl }}/{{ site.author.resume }}" title="Resume">Resume</a></li>
-              {% endif %}
+              <li class="navigation__item"><a href="{{ site.baseurl }}/{{ site.author.resume }}" title="Resume">Resume</a></li>
             </ul>
           </nav>
 
