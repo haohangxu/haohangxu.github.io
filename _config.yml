@@ -1,6 +1,6 @@
 # Site settings
 title: Haohang Xu
-description: 'Derping'        
+description: 'like a small poem... a uni-verse'        
 url: 'haohangxu.github.io'
 baseurl: ''
 
@@ -8,6 +8,7 @@ author:
   name: 'Haohang Xu'
   email: haohang.xu@gmail.com
   github_username:  haohangxu
+  pijul_username:  hxu
   linkedin_username:  haohangxu
   resume: files/HaohangXu.pdf
 

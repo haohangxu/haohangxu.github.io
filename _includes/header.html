@@ -48,6 +48,16 @@
               </li>
             {% endif %}
 
+            {% if site.author.pijul_username %}
+              <!-- Pijul -->
+              <li class="navigation__item">
+                <a href="https://nest.pijul.com/{{ site.author.pijul_username }}" title="{{ site.author.pijul_username }} on Pijul" target="_blank">
+                  <i class="icon icon-cloud"></i>
+                  <span class="label">Pijul</span>
+                </a>
+              </li>
+            {% endif %}
+
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
