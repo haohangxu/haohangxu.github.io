@@ -101,10 +101,11 @@ September 25, 2021
 </div>
 <div class=post-content>
 <p>
-<p>I&rsquo;m switching to <a href=https://gohugo.io/>Hugo</a>! Things are going mostly smooth so far.</p>
-<p>Here&rsquo;s a story of mistakes I made while getting things set up.</p>
+<p>It&rsquo;s storytime! I&rsquo;m switching to <a href=https://gohugo.io/>Hugo</a>!</p>
 <h3 id=prologue-installing-hugo>Prologue: Installing Hugo</h3>
-<p>So I open up the <a href=https://gohugo.io/getting-started/installing/>Hugo installation page</a>, Ctrl-f-ed for &ldquo;Ubuntu&rdquo;, saw that it was available via apt, and installed it. Everything goes smoothly, and migrating my (very little) content was super easy. Awesome! No problem! (Narrator: &mldr;or so she thought.)</p>
+<p>So I open up the <a href=https://gohugo.io/getting-started/installing/>Hugo installation page</a>, Ctrl-f-ed for &ldquo;Ubuntu&rdquo;, saw that it was available via apt, and installed it.</p>
+<p>Everything goes smoothly, and moving over my (very little) content was super easy. I mostly abandon my old theme and cobble something new together based on the <a href=https://gokarna-hugo.netlify.app/>Gokarna</a> theme.</p>
+<p>Awesome! The migration is basically done! (Narrator: &mldr;little did she know&mldr;)</p>
 <h3 id=chapter-1-deploying-to-github-pages>Chapter 1: Deploying to GitHub Pages</h3>
 <p>I was previously using <a href=https://jekyllrb.com/>Jekyll</a>, whose developer, <a href=https://en.wikipedia.org/wiki/Tom_Preston-Werner>Tom Preston-Warner</a>, was a founder of GitHub. As expected, deploying my Jekyll site to GitHub was a breeze.</p>
 <p>I figure I&rsquo;d just swap out Jekyll with Hugo and continue using GitHub pages. After all, Hugo&rsquo;s website even had a <a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>nice little guide</a> for hosting on GitHub!</p>
@@ -141,7 +142,11 @@ dpkg -i hugo_0.88.1_Linux-64bit.deb
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ hugo version
 hugo v0.88.1-5BC54738 linux/amd64 BuildDate<span style=color:#f92672>=</span>2021-09-04T09:39:19Z VendorInfo<span style=color:#f92672>=</span>gohugoio 
 </code></pre></div><p>And <code>hugo --minify</code> works like a charm. Phew!</p>
-<h3 id=epilogue-deploying-to-github-pages-part-2>Epilogue: Deploying to GitHub Pages, Part 2</h3>
+<h3 id=chapter-6-deploying-to-github-pages-part-2>Chapter 6: Deploying to GitHub Pages, Part 2</h3>
+<p>With the configuration from the Hugo documentation, getting the deployment pipeline was super easy! The only thing I stumbled over was not realizing that I needed to change my GitHub Pages configuration to publish from the new branch that the GitHub action created.</p>
+<h3 id=epilogue>Epilogue:</h3>
+<p>Aaand that&rsquo;s the tale of all the mistakes I made while migrating from Jekyll to Hugo!</p>
+<p>Next step: fix the colors of the social icons on the landing page&mldr;</p>
 </p>
 </div>
 </div>
