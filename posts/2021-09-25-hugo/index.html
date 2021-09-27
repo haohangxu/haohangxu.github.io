@@ -1,0 +1,152 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>:root{--accent-color:#49b314}</style>
+<title>Hugo</title>
+<meta name=description content>
+<meta name=keywords content="tech,update">
+<meta property="og:url" content="haohangxu.github.io/posts/2021-09-25-hugo/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hugo">
+<meta property="og:description" content>
+<meta property="og:image" content="/images/profile.jpg">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:title content="Hugo">
+<meta name=twitter:description content>
+<meta property="twitter:domain" content="haohangxu.github.io/posts/2021-09-25-hugo/">
+<meta property="twitter:url" content="haohangxu.github.io/posts/2021-09-25-hugo/">
+<meta name=twitter:image content="/images/profile.jpg">
+<link rel=canonical href=haohangxu.github.io/posts/2021-09-25-hugo/>
+<link rel=stylesheet type=text/css href=/css/normalize.min.css media=print onload="this.media='all'">
+<link rel=stylesheet type=text/css href=/css/main.css>
+<script src=/js/svg-injector.min.js></script>
+<script src=/js/feather-icons.min.js></script>
+<script src=/js/main.js></script>
+<link rel=apple-touch-icon sizes=57x57 href=/images/favicons/apple-icon-57x57.png>
+<link rel=apple-touch-icon sizes=60x60 href=/images/favicons/apple-icon-60x60.png>
+<link rel=apple-touch-icon sizes=72x72 href=/images/favicons/apple-icon-72x72.png>
+<link rel=apple-touch-icon sizes=76x76 href=/images/favicons/apple-icon-76x76.png>
+<link rel=apple-touch-icon sizes=114x114 href=/images/favicons/apple-icon-114x114.png>
+<link rel=apple-touch-icon sizes=120x120 href=/images/favicons/apple-icon-120x120.png>
+<link rel=apple-touch-icon sizes=144x144 href=/images/favicons/apple-icon-144x144.png>
+<link rel=apple-touch-icon sizes=152x152 href=/images/favicons/apple-icon-152x152.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/favicons/apple-icon-180x180.png>
+<link rel=icon type=image/png sizes=192x192 href=/images/favicons/android-icon-192x192.png>
+<link rel=icon type=image/png sizes=32x32 href=/images/favicons/favicon-32x32.png>
+<link rel=icon type=image/png sizes=96x96 href=/images/favicons/favicon-96x96.png>
+<link rel=icon type=image/png sizes=16x16 href=/images/favicons/favicon-16x16.png>
+<link rel=manifest href=/images/favicons/manifest.json>
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=msapplication-TileImage content="/images/favicons/ms-icon-144x144.png">
+<meta name=theme-color content="#ffffff">
+</head>
+<body><header class=header>
+<nav class=header-nav>
+<div class=avatar>
+<a href=haohangxu.github.io>
+<img src=/images/profile.jpg alt=avatar>
+</a>
+</div>
+<div class=nav-title>
+<a class=nav-brand href=haohangxu.github.io>Haohang Xu</a>
+</div>
+<div class=nav-links>
+<div class=nav-link>
+<a href=haohangxu.github.io/about/> About </a>
+</div>
+<div class=nav-link>
+<a href=haohangxu.github.io/posts/> Posts </a>
+</div>
+<div class=nav-link>
+<a href=haohangxu.github.io/tags/> Tags </a>
+</div>
+<div class=nav-link>
+<a href=haohangxu.github.io/index.xml><span data-feather=rss></span> </a>
+</div>
+<span class=nav-icons-divider></span>
+<div class=nav-link id=hamburger-menu-toggle>
+<a>
+<span data-feather=menu></span>
+</a>
+</div>
+<ul class="nav-hamburger-list visibility-hidden">
+<li class=nav-item>
+<a href=haohangxu.github.io/about/> About </a>
+</li>
+<li class=nav-item>
+<a href=haohangxu.github.io/posts/> Posts </a>
+</li>
+<li class=nav-item>
+<a href=haohangxu.github.io/tags/> Tags </a>
+</li>
+<li class=nav-item>
+<a href=haohangxu.github.io/index.xml><span data-feather=rss></span> </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<main id=content>
+<div class="post container">
+<div class=post-header-section>
+<h1>Hugo</h1>
+<small role=doc-subtitle></small>
+<p class=post-date>
+September 25, 2021
+</p>
+<ul class=post-tags>
+<li class=post-tag><a href=/haohangxu.github.io/tags/tech>tech</a></li>
+<li class=post-tag><a href=/haohangxu.github.io/tags/update>update</a></li>
+</ul>
+</div>
+<div class=post-content>
+<p>
+<p>I&rsquo;m switching to <a href=https://gohugo.io/>Hugo</a>! Things are going mostly smooth so far.</p>
+<p>Here&rsquo;s a story of mistakes I made while getting things set up.</p>
+<h3 id=prologue-installing-hugo>Prologue: Installing Hugo</h3>
+<p>So I open up the <a href=https://gohugo.io/getting-started/installing/>Hugo installation page</a>, Ctrl-f-ed for &ldquo;Ubuntu&rdquo;, saw that it was available via apt, and installed it. Everything goes smoothly, and migrating my (very little) content was super easy. Awesome! No problem! (Narrator: &mldr;or so she thought.)</p>
+<h3 id=chapter-1-deploying-to-github-pages>Chapter 1: Deploying to GitHub Pages</h3>
+<p>I was previously using <a href=https://jekyllrb.com/>Jekyll</a>, whose developer, <a href=https://en.wikipedia.org/wiki/Tom_Preston-Werner>Tom Preston-Warner</a>, was a founder of GitHub. As expected, deploying my Jekyll site to GitHub was a breeze.</p>
+<p>I figure I&rsquo;d just swap out Jekyll with Hugo and continue using GitHub pages. After all, Hugo&rsquo;s website even had a <a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>nice little guide</a> for hosting on GitHub!</p>
+<p>So I try running <code>hugo --minify</code>, and Hugo kindly tells me that it knows of no such flag. What?</p>
+<p>Well, turns out I should&rsquo;ve read a little bit more from the Hugo installation page:</p>
+<blockquote>
+<p>This option is not recommended because the Hugo in Linux package managers for Debian and Ubuntu is usually a few versions behind as described <a href=https://github.com/gcushen/hugo-academic/issues/703>here</a>.</p>
+</blockquote>
+<p>Welp.</p>
+<h3 id=chapter-2-installing-hugo-part-2>Chapter 2: Installing Hugo, Part 2</h3>
+<p>Ok then I try the script <a href=https://gohugo.io/getting-started/installing/#fetch-from-github>here</a> for installing Hugo from source. At first things are chugging along, but then:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ go install --tags extended
+
+Command <span style=color:#e6db74>&#39;go&#39;</span> not found, but can be installed with:
+
+sudo apt install golang-go
+sudo apt install gccgo-go 
+</code></pre></div><p>Um. Turns out I don&rsquo;t even have go installed (???). <em>facepalm</em></p>
+<h3 id=chapter-3-installing-go>Chapter 3: Installing Go</h3>
+<p>Bash so kindly told me exactly how to install Go, so I go (haha) ahead and run <code>sudo apt install golang-go</code>.</p>
+<p>That succeeds, and in a stroke of brilliance, I remember that the Hugo docs mentioned requiring Go 1.11, so I check the version:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ go version
+go version go1.10.4 linux/amd64 
+</code></pre></div><p>Gahhh!</p>
+<h3 id=chapter-4-installing-go-part-2>Chapter 4: Installing Go, Part 2</h3>
+<p>So turns out the moral of the story is that apt sucks. This is not the first story with that moral.</p>
+<p>I <a href=https://golang.org/doc/install>install Go</a>. I fiddle around with versioning before successfully uninstalling <code>go1.10</code>.</p>
+<h3 id=chapter-5-installing-hugo-part-3>Chapter 5: Installing Hugo, Part 3</h3>
+<p>Are you sick of this story yet?</p>
+<p>Anyway I must&rsquo;ve gotten my environment messed up somehow, because the <code>go install</code> still did nothing, so I finally ended up installing the Debian package directly:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>wget https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb
+dpkg -i hugo_0.88.1_Linux-64bit.deb
+</code></pre></div><p>I check the version:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ hugo version
+hugo v0.88.1-5BC54738 linux/amd64 BuildDate<span style=color:#f92672>=</span>2021-09-04T09:39:19Z VendorInfo<span style=color:#f92672>=</span>gohugoio 
+</code></pre></div><p>And <code>hugo --minify</code> works like a charm. Phew!</p>
+<h3 id=epilogue-deploying-to-github-pages-part-2>Epilogue: Deploying to GitHub Pages, Part 2</h3>
+</p>
+</div>
+</div>
+</main><footer class=footer>
+<span>&copy; 2021 Haohang Xu</span>
+</footer>
+</body>
+</html>
