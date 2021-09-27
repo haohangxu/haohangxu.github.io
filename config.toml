@@ -1,4 +1,4 @@
-baseURL = "haohangxu.github.io"
+baseURL = "https://haohangxu.github.io"
 disablePathToLower = true
 languageCode = "en-us"
 title = "Haohang Xu"
